@@ -6,3 +6,5 @@ find_deepest_scan.m: Quantitatively, the image containing the foveal centre woul
 deepest_scan_analysis.m: Extracts foveal depth, retinal thickness at the foveal pit, parafoveal retinal thicknesses, and the thickness of 12 distinct retinal layers from the deepest scan identified by the find_deepest_scan.m function.
 
 extract_retinal_thickness.m: Extracts the thickness of 12 separate retinal layers and converts the measurements to micrometers.
+
+extract_required_thresholds.m: Interpolates visual field thresholds from a predefined coordinate grid and aligns them with specific positions in an OCT image to correlate retinal parameters with visual sensitivity.
